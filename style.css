@@ -1,0 +1,151 @@
+html{
+    background-color:rgb(250, 200, 105);
+}
+.main{
+    margin-top:10px;
+    display:flex;
+    flex-direction: column;
+    height:30%;
+    gap:30px;
+    justify-content:center;
+    align-items:center;
+}
+.header{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+h2{
+    font-family:'La Belle Aurore',cursive;
+    color:rgb(129, 72, 2);
+    font-size:65px;
+}
+.container{
+    margin-left:15%;
+    display:grid;
+    gap:15px;
+    height:75vh;
+    width:150vh;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    margin-top:5%;
+    /* border:5px dotted coral; */
+}
+img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+    border:5px groove rgb(145, 39, 0);
+}
+.mod{
+    height:70%;
+    width:100%;
+    border:5px groove rgb(145, 40, 3);
+
+}
+.alt{
+    border-radius:50%;
+}
+.logo{
+    height:200px;
+    width:300px;
+
+}
+.logopic{
+    height:200px;
+    width:300px;
+    border-radius:50%;
+}
+body {
+    background-color: rgb(249, 199, 106);
+    margin: 0; /* Add this line to remove default body margin */
+}
+.clicks{
+    margin-top:5%;
+    margin-left:16%;
+}
+.container{
+    padding-top:5px;
+}
+.faqs{
+    margin-top:70px;
+    display:grid;
+    gap:5px;
+    margin-left:18%;
+    width:800px;
+    height:85vh;
+    background-color:rgb(254, 189, 212);
+    background-image:url('./pngtree-bright-tulips-flowers-orange-background-photography-wallpaper-image_759374.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* opacity:0.85; */
+    grid-template-rows:1fr 1fr 1fr;
+    grid-template-columns:1fr 1fr;
+}
+.fh{
+    grid-column:span 2;
+    padding-top:15px;
+}
+h3,p{
+    font-family:'La Belle Aurore',cursive;
+    text-align:center;
+    color:rgb(4, 63, 18);
+    font-size:30px;
+}
+h3{
+    font-size:40px;
+}
+.f1,.fh,.f2,.f3,.f4{
+    border:5px inset rgb(30, 83, 3);
+    padding:10px 10px;
+}
+p{
+    text-align:justify;
+    text-justify:inter-word;
+}
+.abc{
+    width:70vh;
+    margin-left:37%;
+    margin-top:5%;
+}
+.order{
+    margin-top:5%;
+    margin-left:2%;
+    font-size:35px;
+    text-align:center;
+    color:rgb(95, 51, 5);
+}
+#final{
+    margin-left:40%;
+}
+.footer{
+    margin-top:5%;
+    display:flex;
+    justify-content:center;
+    width:100%;
+    border-top:1px solid black;
+}
+.n2{
+    margin-left:20%;
+    font-weight:bold;
+}
+.n3{
+    padding-left:10px;
+}
+a{
+    color: rgb(0, 128, 94);
+}
+a:hover{
+    color:white;
+}
+.btn{
+    color:maroon;
+    border:0px inset rgb(41, 128, 0);
+    font-size:18px;
+}
+.btn:hover{
+    background-color:darkgreen;
+    color:white;
+    border:0px;
+}
